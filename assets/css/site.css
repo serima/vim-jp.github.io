@@ -229,11 +229,11 @@ div#VimdocJaSearch {
   white-space: normal; 
   cursor: pointer; 
   outline: none; 
-  background-color: #50bb50;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#50bb50), to(#80cc66));
-  background-image: -moz-linear-gradient(#50bb50, #80cc66);
-  background-image: -o-linear-gradient(#50bb50, #80cc66);
-  background-image: linear-gradient(#50bb50, #80cc66);
+  background-color: #5050bb;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5050bb), to(#80cc66));
+  background-image: -moz-linear-gradient(#5050bb, #80cc66);
+  background-image: -o-linear-gradient(#5050bb, #80cc66);
+  background-image: linear-gradient(#5050bb, #80cc66);
   filter: progid:DxImageTransform.Microsoft.Gradient(Enabled=1,GradientType=0,StartColorStr=#FF50BB50,EndColorStr=#FF80CC66);
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
