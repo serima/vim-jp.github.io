@@ -6,3 +6,8 @@ before_build {
   run 'rbenv local ruby-2.2.5'
   run 'bundle install --path vendor --binstubs'
 }
+
+task(:default) {
+  entry_point '/'
+  exclude_paths [ '/rss.xml' ]
+}
