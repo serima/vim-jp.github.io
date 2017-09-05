@@ -4,10 +4,6 @@ jobs:
     docker:
       - image: circleci/ruby:2.3.3
     working_directory: ~/vim-jp
-    environment:
-      - JEKYLL_ENV=production
-      - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-      - JOB_RESULTS_PATH=run-results
     steps:
       - checkout
       - restore_cache:
@@ -24,4 +20,4 @@ jobs:
           command: bundle exec jekyll build -d jekyll/_site/docs/
       - store_artifacts:
           path: jekyll/_site/docs/
-          destination: vim-jp
+          destination: vim-jp.github.io
