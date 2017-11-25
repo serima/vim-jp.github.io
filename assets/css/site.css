@@ -40,6 +40,24 @@ h6 {
   font-weight: bold;
 }
 
+h7 {
+  font-size: 0.85em;
+  margin: 1.2em 0em 1.2em 0em;
+  font-weight: bold;
+}
+
+h8 {
+  font-size: 0.85em;
+  margin: 1.2em 0em 1.2em 0em;
+  font-weight: bold;
+}
+
+h9 {
+  font-size: 0.85em;
+  margin: 1.2em 0em 1.2em 0em;
+  font-weight: bold;
+}
+
 img {
   border: 0;
 }
